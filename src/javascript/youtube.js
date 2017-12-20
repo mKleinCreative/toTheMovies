@@ -1,5 +1,6 @@
+(function(){
   // Client ID and API key from the Developer Console
-  var CLIENT_ID = 'AIzaSyARrhss3h5i4k4r58wyRnCmBJE8DFViGBc';
+  var CLIENT_ID = 'AIzaSyDAT4-UeGntGNdKtc4Ne9vPHYPznQQA7_A';
 
   // Array of API discovery doc URLs for APIs used by the quickstart
   var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest"];
@@ -93,3 +94,4 @@
         'and it has ' + channel.statistics.viewCount + ' views.');
     });
   }
+}())
