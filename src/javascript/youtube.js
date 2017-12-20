@@ -1,4 +1,3 @@
-(function(){
   // Client ID and API key from the Developer Console
   var CLIENT_ID = 'AIzaSyDAT4-UeGntGNdKtc4Ne9vPHYPznQQA7_A';
 
@@ -94,4 +93,3 @@
         'and it has ' + channel.statistics.viewCount + ' views.');
     });
   }
-}())
