@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To The Movies!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="./public/assets/style/master.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-between">
+      <a class="navbar-brand" href="#">To The Movies!</a>
+      <form class="form-inline my-2 my-lg-0 align-self-end">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find A Movie</button>
+      </form>
+    </nav>
+    <div class="container-fluid align-items-start container-main">
+      <div class="container container-sidebar justify-content-start w-25">
+        <div class="row align-items-start">
+          <div class="col-md-6 align-self-start movie-list-container">
+            <ul class="list-group movie-list">
+              <li class="list-group-item">movie</li>
+              <li class="list-group-item">movie</li>
+              <li class="list-group-item">movie</li>
+              <li class="list-group-item">movie</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid container-body">
+      <div class="row content youtube-display">
+        
+      </div>
+      <div class="row">
+        <div class="col-md-8"> theaters </div>
+      </div>
+    </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="./src/javascript/youtube.js"></script>
+    <script src="./src/javascript/logic.js"></script>
+    <script async defer src="https://apis.google.com/js/api.js" onload="this.onload=function(){};handleClientLoad()" onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
+</html>
