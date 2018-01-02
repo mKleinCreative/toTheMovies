@@ -1,0 +1,13 @@
+repository: https://github.com/mKleinCreative/toTheMovies
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
+
+# Custom environment variables.
+# Available site-wide as site.demo_var.
+demo_var: ENV_DEMO_VAR
+

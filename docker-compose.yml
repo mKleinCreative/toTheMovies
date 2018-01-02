@@ -1,0 +1,15 @@
+app:
+  build: .
+  container_name: jekyll-docker
+  ports:
+    - '4000:4000'
+  volumes:
+    - .:/usr/src/app
+  env_file: .env
+  hostname: jekyll
+  environment:
+    # Default to /bin/bash instead of /bin/sh
+    - SHELL=/bin/bash
+    # Setting a sample variable without commiting it's key.
+    # This will be passed to the Dockerfile.
+    - DEMO_VAR=${DEMO_VAR}

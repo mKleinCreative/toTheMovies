@@ -1,5 +1,5 @@
-  // Client ID and API key from the Developer Console
-  var CLIENT_ID = 'AIzaSyDAT4-UeGntGNdKtc4Ne9vPHYPznQQA7_A';
+// Client ID and API key from the Developer Console
+var CLIENT_ID = 'AIzaSyDAT4-UeGntGNdKtc4Ne9vPHYPznQQA7_A';
 
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
